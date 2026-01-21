@@ -1,0 +1,33 @@
+### Java template
+# Compiled class file
+*.class
+
+target/
+build/
+gradle/
+.gradle/
+application.properties
+gradlew
+gradlew.bat
+settings
+
+# Log file
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.ear
+# *.zip
+*.tar.gz
+*.rar
+
+
+
+## Plugin-specific files:
+
+# IntelliJ
+out/
+.idea/
+*.iml
+.idea_modules/
