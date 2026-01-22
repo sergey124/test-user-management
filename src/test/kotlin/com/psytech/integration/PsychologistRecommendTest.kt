@@ -2,6 +2,7 @@ package com.psytech.integration
 
 import com.psytech.entity.Patient
 import com.psytech.entity.Psychologist
+import com.psytech.repository.PatientRepository
 import com.psytech.repository.PsychologistRepository
 import com.psytech.service.PsychologistRecommendService
 import org.assertj.core.api.Assertions.assertThat

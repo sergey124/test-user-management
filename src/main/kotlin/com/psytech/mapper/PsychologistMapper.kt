@@ -20,4 +20,15 @@ class PsychologistMapper {
     fun toDataList(psychologists: List<Psychologist>): List<PsychologistData> {
         return psychologists.map { toData(it) }
     }
+
+    fun toEntity(data: PsychologistData): Psychologist {
+        return Psychologist(
+            id = data.id,
+            firstName = data.firstName,
+            lastName = data.lastName,
+            nationalSecurityNumber = data.nationalSecurityNumber,
+            birthDate = data.birthDate,
+            organization = data.organization
+        )
+    }
 }
